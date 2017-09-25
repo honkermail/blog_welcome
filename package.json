@@ -1,0 +1,34 @@
+{
+  "name": "blog_welcome",
+  "version": "1.0.0",
+  "description": "个人博客欢迎页",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/sookie2010/blog_welcome.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "结发受长生",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sookie2010/blog_welcome/issues"
+  },
+  "homepage": "https://github.com/sookie2010/blog_welcome#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "dependencies": {
+    "fullpage.js": "^2.9.4",
+    "jquery": "^3.2.1"
+  }
+}
