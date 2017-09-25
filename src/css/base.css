@@ -1,0 +1,39 @@
+@charset "utf-8";
+#back .section {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	opacity: .3;
+}
+#back .section#page1 {
+	background-image : url("../images/pc/pc1.jpeg");
+}
+#back .section#page2 {
+	background-image : url("../images/pc/pc2.jpeg");
+}
+#back .section#page3 {
+	background-image : url("../images/pc/pc3.jpeg");
+}
+#back .section#page4 {
+	background-image : url("../images/pc/pc4.jpeg");
+}
+#back .section#page5 {
+	background-image : url("../images/pc/pc5.jpeg");
+}
+
+@media only screen and (max-width: 768px) {
+	#back .section#page1 {
+		background-image : url("../images/mobile/mobile1.jpg");
+	}
+	#back .section#page2 {
+		background-image : url("../images/mobile/mobile2.jpeg");
+	}
+	#back .section#page3 {
+		background-image : url("../images/mobile/mobile3.png");
+	}
+	#back .section#page4 {
+		background-image : url("../images/mobile/mobile4.jpg");
+	}
+	#back .section#page5 {
+		background-image : url("../images/mobile/mobile5.png");
+	}
+}
